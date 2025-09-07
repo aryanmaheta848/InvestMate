@@ -1,0 +1,71 @@
+name: invest_mate
+description: "TickerTracker - Investment Clubs & Paper Trading App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Icons
+  cupertino_icons: ^1.0.8
+  material_design_icons_flutter: ^7.0.7296
+  
+  # Firebase
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.7.0
+  cloud_firestore: ^5.6.12
+  firebase_messaging: ^15.2.10
+  google_sign_in: ^6.2.1
+  
+  # HTTP & API
+  http: ^1.5.0
+  dio: ^5.9.0
+  
+  # Charts & Data Visualization
+  fl_chart: ^1.1.0
+  syncfusion_flutter_charts: ^31.1.17
+  
+  # State Management
+  provider: ^6.1.5+1
+  get: ^4.7.2
+  
+  # Storage & Cache
+  shared_preferences: ^2.5.3
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.5.1
+  timeago: ^3.7.1
+  url_launcher: ^6.3.2
+  
+  # UI Enhancements
+  shimmer: ^3.0.0
+  lottie: ^3.3.1
+  cached_network_image: ^3.4.1
+  pull_to_refresh: ^2.0.0
+  
+  # News & Web Scraping
+  html: ^0.15.6
+  webfeed_plus: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/icons/

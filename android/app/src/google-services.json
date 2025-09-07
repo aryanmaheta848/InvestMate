@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "115248817960",
+    "project_id": "investmate-5c14b",
+    "storage_bucket": "investmate-5c14b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115248817960:android:15552367b6b66b1128521d",
+        "android_client_info": {
+          "package_name": "com.example.invest_mate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115248817960-rb642jo6fec0p789rm9181rv2n4ofq98.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.invest_mate",
+            "certificate_hash": "f72af942567c6c54ea30c115832622c76244f1c2"
+          }
+        },
+        {
+          "client_id": "115248817960-al6jhii456afo42ecdu7ilbkg278shps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa3tNMFwvxUAiWD0ajYWZwmxrnya3ZLg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115248817960-al6jhii456afo42ecdu7ilbkg278shps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
